@@ -1,0 +1,487 @@
+.flag_container {
+    height: 175px;
+    width: 275px;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* === INTERNATIONAL ========================== */
+
+.international {
+    background-color: #023CA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.international_rings_container {
+    height: 120px;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.international_ring {
+    aspect-ratio: 1;
+    height: 60px;
+    border-radius: 50%;
+    border: solid white 5px;
+    position: absolute;
+}
+
+.international_ring_center {
+    transform: translateX(50%) translateY(50%);
+}
+
+.international_ring_top_left {
+    left: 15px;
+    top: 6px;
+}
+
+.international_ring_top_right {
+    right: 15px;
+    top: 6px;
+}
+
+.international_ring_right {
+    transform: translateY(50%);
+    right: 3px;
+}
+
+.international_ring_bottom_right {
+    bottom: 6px;
+    right: 15px;
+}
+
+.international_ring_bottom_left {
+    bottom: 6px;
+    left: 15px;
+}
+
+.international_ring_left {
+    transform: translateY(50%);
+    left: 3px;
+}
+
+/* ==== ENGLISH ========================= */
+
+.america {
+    background-color: white;
+}
+
+.america_stars_container {
+    position: absolute;
+    background-color: #0A3161;
+    height: 56%;
+    width: 45%;
+    color: white;
+}
+
+.america_star {
+    position: absolute;
+}
+
+.america_star_left {
+    left: 10px;
+}
+
+.america_star_center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.america_star_right {
+    right: 10px;
+}
+
+.america_star_top {
+    top: 10px;
+}
+
+.america_star_middle {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.america_star_bottom {
+    bottom: 10px;
+}
+
+.america_star_dead_center {
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+
+.america_stripe_container {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+}
+
+.america_red_strip {
+    background-color: #B31942;
+    height: 21px;
+}
+
+/* ==== PORTUGESE ============================*/
+.portugal {
+    background-color: #DA291C;
+}
+
+.portugal_green_half {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: #046A38;
+}
+
+.portugal_yellow_logo {
+    position: absolute;
+    aspect-ratio: 1;
+    height: 90px;
+    border-radius: 50%;
+    border: solid 6px #FFE900;
+    left: 40%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portugal_yellow_line {
+    height: 105%;
+    width: 5px;
+    background-color: #FFE900;
+    position: absolute;
+}
+
+.portugal_yellow_line_diagonal_one {
+    transform: rotateZ(60deg);
+}
+
+.portugal_yellow_line_diagonal_two {
+    transform: rotateZ(-60deg);
+}
+
+.portugal_red_logo {
+    height: 65px;
+    width: 55px;
+    position: absolute;
+    background-color: #DA291C;
+    border-radius: 0 0 50px 50px;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portugal_white_logo {
+    height: 40px;
+    width: 30px;
+    background-color: white;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+}
+
+.portugal_blue_logo {
+    background-color: #003d99;
+    position: absolute;
+    height: 10px;
+    aspect-ratio: 1;
+    border-radius: 0 0 50px 50px;
+}
+
+.portugal_blue_logo_top {
+    top: 3px;
+}
+
+.portugal_blue_logo_middle {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.portugal_blue_logo_bottom {
+    bottom: 3px;
+}
+
+.portugal_blue_logo_left {
+    left: 3px;
+}
+
+.portugal_blue_logo_center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.portugal_blue_logo_right {
+    right: 3px;
+}
+
+/* ==== ITALIAN ============================= */
+.italy {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.italy_green_stripe {
+    background-color: #008C45;
+    width: 33%;
+    height: 100%;
+}
+
+.italy_red_stripe {
+    background-color: #CD212A;
+    width: 33%;
+    height: 100%;
+}
+
+/* ==== DUTCH ========================== */
+.netherlands {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.netherlands_red_stripe {
+    height: 33%;
+    width: 100%;
+    background-color: #C8102E;
+}
+
+.netherlands_blue_stripe {
+    height: 33%;
+    width: 100%;
+    background-color: #003DA5;
+}
+
+/* ==== DANISH ================================ */
+.denmark {
+    background-color: #C8102E;
+}
+
+.denmark_vertical_stripe {
+    height: 100%;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+}
+
+.denmark_horizontal_stripe {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ==== FRENCH =============================== */
+.france {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.france_blue_stripe {
+    width: 34%;
+    height: 100%;
+    background-color: #002654;
+}
+
+.france_red_stripe {
+    width: 34%;
+    height: 100%;
+    background-color: #ED2939;
+}
+
+/* ==== GERMAN ================================= */
+.germany {
+    background-color: #DD0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.germany_black_stripe {
+    height: 34%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.germany_yellow_stripe {
+    height: 31%;
+    width: 100%;
+    background-color: #FFCC00;
+}
+
+/* ==== RUSSIAN ===================================== */
+.russia {
+    background-color: #1C3578;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.russia_white_stripe {
+    height: 33%;
+    width: 100%;
+    background-color: white;
+}
+
+.russia_red_stripe {
+    height: 32%;
+    width: 100%;
+    background-color: #E4181C;
+}
+
+/* ==== SWEDISH ========================== */
+.sweden {
+    background-color: #006AA7;
+}
+
+.sweden_vertical_stripe {
+    position: absolute;
+    background-color: #FECC02;
+    height: 100%;
+    width: 30px;
+    left: 30%;
+}
+
+.sweden_horizontal_stripe {
+    position: absolute;
+    background-color: #FECC02;
+    height: 30px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ==== TURKISH ===================== */
+.turkey {
+    background-color: #C8102E;
+    display: flex;
+    align-items: center;
+}
+
+.turkey_white_circle {
+    aspect-ratio: 1;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    left: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.turkey_red_circle {
+    aspect-ratio: 1;
+    height: 73px;
+    background-color: #C8102E;
+    border-radius: 50%;
+    position: absolute;
+    right: -3px;
+}
+
+.turkey_star {
+    position: absolute;
+    color: white;
+    transform: scale(2.4) rotateZ(-16deg);
+    left: 140px;
+}
+
+/* ==== SPANISH ================================ */
+.spain {
+    background-color: #AA151B;
+    display: flex;
+    align-items: center;
+}
+
+.spain_yellow_stripe {
+    background-color: #F1BF00;
+    height: 45%;
+    width: 100%;
+    position: relative;    
+    display: flex;
+    align-items: center;
+}
+
+.spain_logo_container {
+    height: 90%;
+    width: 80px;
+    position: relative;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spain_white_bar {
+    height: 75%;
+    background-color: white;
+    width: 10px;
+    border-radius: 10px;
+}
+
+.spain_red_logo {
+    background-color: #AA151B;
+    height: 80%;
+    width: 45px;
+    border-radius: 10px 10px 30px 30px;
+}
+
+/* ==== GREEK ================================= */
+
+.greece {
+    background-color: white;
+}
+
+.greece_cross_container {
+    position: absolute;
+    background-color: #001489;
+    height: 56%;
+    width: 45%;
+    color: white;
+}
+
+.greece_stripe_container {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+}
+
+.greece_blue_strip {
+    background-color: #001489;
+    height: 21px;
+}
+
+.greece_cross_vertical_stripe {
+    background-color: white;
+    height: 100%;
+    position: absolute;
+    width: 21px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.greece_cross_horizontal_stripe {
+    background-color: white;
+    height: 21px;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
