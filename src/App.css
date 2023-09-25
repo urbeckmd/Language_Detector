@@ -154,7 +154,7 @@
 
 .button_container {
   height: 7%;
-  width: 100%;
+  width: 220px;
   position: absolute;
   bottom: 70px;
   display: flex;
@@ -162,25 +162,25 @@
 }
 
 .loading_button_container {
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .button_loading {
   height: 100% !important;
-  position: absolute;
+  /* position: absolute; */
   padding-left: 50px;
 }
 
 .spinner {
   position: absolute;
   z-index: 1;
-  left: 225px;
+  top: 20%;
+  left: 10%;
 }
 
 .button {
-  position: relative;
+  /* position: relative; */
   font-size: 25px;
   width: 220px;
+  padding-top: 10px;
 }

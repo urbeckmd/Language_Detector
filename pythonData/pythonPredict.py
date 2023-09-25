@@ -53,6 +53,7 @@ def loadLabelEncoder():
     return pickle.load(open('../pythonData/label_encoder.pkl','rb'))
 
 def makePrediction():
+    print("Starting Python...")
     # Read input from file
     input_text = readInputFile(sys.argv[2])
 
