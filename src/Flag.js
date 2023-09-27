@@ -8,11 +8,16 @@ import Netherlands from './country_flags/Netherlands'
 import Denmark from './country_flags/Denmark'
 import France from './country_flags/France'
 import Germany from './country_flags/Germany'
-import Russia from './country_flags/Russia'
 import Sweden from './country_flags/Sweden'
 import Turkey from './country_flags/Turkey'
 import Spain from './country_flags/Spain'
-import Greece from './country_flags/Greece'
+import Czech_Republic from './country_flags/Czech_Republic'
+import Finland from './country_flags/Finland'
+import Hungary from './country_flags/Hungary'
+import Iceland from './country_flags/Iceland'
+import Norway from './country_flags/Norway'
+import Poland from './country_flags/Poland'
+import Slovakia from './country_flags/Slovakia'
 
 function Flag({ language, loading, dataReceived }) {
     switch (language) {
@@ -20,7 +25,7 @@ function Flag({ language, loading, dataReceived }) {
             return <International loading={loading} dataReceived={dataReceived} />
         case "English":
             return <America dataReceived={dataReceived} />
-        case "Portugeese":
+        case "Portuguese":
             return <Portugal dataReceived={dataReceived} />
         case "Italian":
             return <Italy dataReceived={dataReceived} />
@@ -32,16 +37,26 @@ function Flag({ language, loading, dataReceived }) {
             return <France dataReceived={dataReceived} />
         case "German":
             return <Germany dataReceived={dataReceived} />
-        case "Russian":
-            return <Russia dataReceived={dataReceived} />
-        case "Sweedish":
+        case "Swedish":
             return <Sweden dataReceived={dataReceived} />
         case "Turkish":
             return <Turkey dataReceived={dataReceived} />
         case "Spanish":
             return <Spain dataReceived={dataReceived} />
-        case "Greek":
-            return <Greece dataReceived={dataReceived} />
+        case "Czech":
+            return <Czech_Republic dataReceived={dataReceived} />
+        case "Finnish":
+            return <Finland dataReceived={dataReceived} />
+        case "Hungarian":
+            return <Hungary dataReceived={dataReceived} />
+        case "Icelandic":
+            return <Iceland dataReceived={dataReceived} />
+        case "Norwegian":
+            return <Norway dataReceived={dataReceived} />
+        case "Polish":
+            return <Poland dataReceived={dataReceived} />
+        case "Slovak":
+            return <Slovakia dataReceived={dataReceived} />
     }
 }
 
